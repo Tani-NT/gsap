@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+    color: #fff;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: #2d2d2ddc;
+}
+.nav{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+.part2{
+    display: flex;
+    gap: 20px;
+}
+#box{
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+    text-align: center;
+}
+#box1{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}
+#box2{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+}
+#box3{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 4vw;
+}
+
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page3{
+    width: 100%;
+    height: 100%;
+    background-color: #a965ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+}
+h5{
+    font-size: 4vw;
+    position: relative;
+    background-color: #030383;
+    padding: 1vw;
+}
+h4{
+    font-size: 2vw;
+    position: relative;
+    background-color: pink;
+    padding: 1vw;
+}
+#page4{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+}
+body{
+    overflow-x: hidden;
+}
+#page5{
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+}
+h6{
+    font-size: 35vw;
+}
+#page6{
+    width: 100%;
+    height: 100%;
+    background-color: lightgreen;
+}
