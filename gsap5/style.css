@@ -1,0 +1,196 @@
+@font-face {
+    font-family: machina;
+    src: url(./3856NeueMachina.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.section1{
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 3vw;
+}
+nav h1{
+    font-size: 2.5vw;
+    font-family: machina;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:2vw;
+    font-family: monospace;
+}
+.part2 h4{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+.part2 button{
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 1vw;
+    border-radius: .5vw;
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+.center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 3vw;
+}
+.center-part1{
+    width: 60%;
+    height: 100%;
+}
+.center-part1 h1{
+    width: 85%;
+    margin-top: 3vw;
+    font-size: 4vw;
+    font-weight: 600;
+    font-family: machina;
+    line-height: 4.2vw;
+}
+.center-part1 p{
+    font-size: 1.3vw;
+    width: 80%;
+    margin-top: 2vw;
+}
+.center-part1 button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: .5vw;
+    padding: .7vw 1vw;
+    margin-top: 2vw;
+    font-size: 1.4vw;
+    font-weight: 600;
+}
+.center-part2{
+    width: 50%;
+    height: 60%;
+}
+.center-part2 img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.section1-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 3vw;
+}
+.section1-bottom img{
+    width: 10vw;
+    height: 7vw;
+    object-fit: cover;
+}
+.section2{
+    width: 100%;
+    min-height: 100vh;
+}
+.section2 .services{
+    padding: 3vw 4vw;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    justify-content: flex-start;
+}
+.services h3{
+    font-size: 2.3vw;
+    font-weight: 600;
+    background-color: #9AE975;
+    font-family: machina;
+    border-radius: .5vw;
+    padding: .5vw;
+}
+.services p{
+    width: 50%;
+    font-size: 1.2vw;
+}
+.container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.elem{
+    width: 43vw;
+    height: 20vw;
+    border-radius: 4vw;
+    margin-top: 3vw;
+    box-shadow: 0px 8px 0px black;
+    border: 1px solid #000;
+    display: flex;
+    padding: 1vw 1vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.headline{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8vw;
+    flex-direction: column;
+}
+.headline h3{
+    width: 70%;
+    font-size: 2vw;
+    background-color: #9AE975;
+    padding: .4vw;
+    border-radius: .4vw;
+}
+.learnMore{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.learnMore i{
+    font-size: 2vw;
+    background-color: #000;
+    border-radius: 50%;
+    color: #9AE975;
+}
+.learnMore h5{
+    font-size: 1.1vw;
+}
+.elem img{
+    width: 15vw;
+    height: 15vw;
+    object-fit: cover;
+}
+.black{
+    background-color: #000;
+    color: #fff;
+}
+.black .headline h3{
+    background-color: #fff;
+    color: #000;
+}
+.black .learnMore i{
+    background-color: #fff;
+    color: #000;
+}
+.section3{
+    width: 100%;
+    height: 100%;
+}
